@@ -1,0 +1,14 @@
+local.properties
+/gradle/
+/gradle/wrapper/gradle-wrapper.properties
+/gradlew.bat
+/gradlew
+/gradle.properties
+/BluetoothRobot.iml
+/build/
+/settings.gradle
+/app/app.iml
+/.gradle/
+/.idea/
+/app/proguard-rules.pro
+/app/build/
