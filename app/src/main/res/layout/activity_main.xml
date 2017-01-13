@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -12,9 +13,38 @@
     tools:context="com.example.algomez.bluetoothrobot.MainActivity"
     >
 
-  <TextView
-      android:layout_width="wrap_content"
+  <Button
+      android:id="@+id/connect_cta"
+      android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:text="Hello World!"
+      android:text="Connect Device"
       />
-</RelativeLayout>
+
+  <Button
+      android:id="@+id/send_data_cta"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="send data"
+      />
+
+  <Button
+      android:id="@+id/show_image"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Show Image"
+      />
+
+  <TextView
+      android:id="@+id/text_to_show"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:textSize="6sp"
+      />
+
+  <ImageView
+      android:id="@+id/image_viewer"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      />
+</LinearLayout>
